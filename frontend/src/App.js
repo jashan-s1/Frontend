@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState("");
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const API_URL = "https://qualifier-test-xiy5.vercel.app/bfhl"; // Replace with actual URL
+  const API_URL = "https://qualifier-test-xiy5.vercel.app/bfhl"; 
 
   const handleSubmit = async () => {
     try {
